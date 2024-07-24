@@ -1,0 +1,67 @@
+.filter-section {
+   background-color: #f6f8ff;
+   position : sticky;
+   padding: 20px;
+   margin-left: 2rem;
+   margin-bottom: 1rem;
+   width:16rem;
+ }
+ 
+ .filter-container {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .filter-shower {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ .filter-shower-text {
+   font-size: 18px;
+   font-weight: bold;
+ }
+ 
+ .filter-shower-clear {
+   color: #007bff;
+   cursor: pointer;
+ }
+ 
+ .category, .price, .rating {
+   margin-bottom: 20px;
+ }
+ 
+h4 {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+ 
+.category-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+ 
+input[type="checkbox"] {
+   margin-right: 5px;
+}
+ 
+ label {
+   cursor: pointer;
+}
+ 
+input[type="checkbox"]:checked + label {
+   font-weight: bold;
+}
+ 
+@media screen and (max-width: 468px) {
+   .filter-section {
+     height: 16rem;
+     overflow-y: scroll;
+   }
+ }
+    

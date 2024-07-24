@@ -1,0 +1,10 @@
+.product-listing-page-containe{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 486px){
+    .product-listing-page-containe{
+        flex-direction: column;
+    }
+}

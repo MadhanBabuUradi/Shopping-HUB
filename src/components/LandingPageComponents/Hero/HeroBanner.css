@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+}
+
+.container{
+    position: relative;
+}
+
+.back{
+    display: flex;
+    background-color: rgba(106, 172, 172, 0.664);
+    height: 24rem;
+    width: 100vw;
+    z-index: -1;
+    position: relative;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.text button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 24px;
+    border: 0px;
+    background-color: rgb(0, 146, 66);
+}
+
+.text h1{
+    color: rgb(2, 100, 46);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.coming-image{
+    position: absolute;
+    width: 50rem;
+    bottom: 0;
+    right: 0px;
+    z-index: -1;
+}
+@media screen and (max-width: 824px) {
+    .coming-image{
+        width: 40rem;
+    } 
+}
+@media screen and (max-width: 585px) {
+    .coming-image{
+        opacity: 0.2;
+    } 
+}

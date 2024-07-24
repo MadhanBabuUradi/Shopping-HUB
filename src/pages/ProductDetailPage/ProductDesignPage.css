@@ -1,0 +1,121 @@
+.product-design-upper{
+    display:grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 1rem;
+
+}
+.product-design-upper-right .sizes button{
+    margin:0.2rem;
+    padding:0.4rem;
+    font-size: 0.8rem;
+    font-weight:500;
+    border:1px solid rgb(11, 141, 228);
+    background-color: rgb(255, 255, 255);
+}
+.product-design-upper-right .quantity{
+    display: flex;
+    flex-direction: row;
+}
+.product-design-upper-right .quantity .button-div{
+    display: flex;
+    width: max-content;
+    color: black;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0;
+    margin: 0.2rem;
+    border-radius: 7px;
+}
+
+.product-design-upper-right .quantity .button-div button{
+    border: 0;
+    background-color: transparent;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.product-design-upper-right .quantity .add-to-cart{
+    background-color: rgb(11, 141, 228);
+    color: white;
+    border: 0;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.product-design-upper-right .quantity .buy-now{
+    background-color: rgb(38, 182, 115);
+    color: white;
+    border: 0;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.product-design-upper-left {
+    height: auto;
+    width: 100%;
+}
+
+.product-design-upper-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+.product-design-lower{
+    margin-top: 0.5rem;
+}
+
+.lower-tab-info{
+    height: max-content;
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    background-color: rgba(220, 220, 220, 0.151);
+    padding: 1rem;
+}
+
+@media screen and (max-width: 560px){
+    .product-design-upper{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-design-upper-right{
+        display: flex;
+        flex-direction: column;
+        margin:1rem;
+    }
+    .product-design-upper-right .hh,.pp{
+        margin-bottom: 0rem;
+    }
+    .product-design-upper-right .sizes{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-design-upper-right .quantity{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-design-upper-right .quantity .button-div{
+        width: 95%;
+        justify-content: space-between;
+    }
+    .product-design-upper-right .quantity .add-to-cart{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    hr{
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+.brand-card{
+    display:flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 4.5rem;
+    background-color: rgba(189, 185, 185, 0.158);
+    border-radius: 8px; 
+    align-items: center;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.514);
+}
+
+.brand-card:hover{
+    box-shadow: 0.15rem 0.15rem rgba(0, 0, 0, 0.514);
+    transform: translate(0.15rem, 0.15rem);
+}
+
+.brand-card-img img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 0.5rem;
+}
+.brand-card-text{
+    margin-left: 0.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 48, 48);
+}
+
+@media screen and (max-width: 798px) {
+    .brand-card{
+        width: 9rem;
+        height: 4.5rem;
+    }
+}

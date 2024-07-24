@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.shop-it{
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    margin-top: -5px;
+}
+
+.shop-it-img{
+    height: 2.8rem;
+    margin-top: -4%;
+    margin-right: 10px;
+}
+
+.tabs{
+    display: flex;
+}
+.categories{
+    display: flex;
+    margin-right: 2rem;
+    &:hover{
+        border-bottom: solid rgb(119, 218, 199) 2px;
+    }
+}
+
+.different-section{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.acc-and-cart{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    .account{
+        display: flex;
+    }
+    .account div{
+        &:hover{
+            border-bottom: solid  rgb(119, 218, 199) 2px;
+        }
+    }
+    .cart{
+        display: flex;
+       
+    }
+    .cart div{
+        &:hover{
+            border-bottom: solid rgb(119, 218, 199) 2px;
+        }
+    }
+}
+.search-bar{
+    height: 20px;
+    border-radius: 15px;
+    border: solid grey 0px;
+    background-color: rgb(240, 240, 240);
+}
+
+.search-in-nav{
+    position: relative;
+}
+
+@media screen and (max-width: 798px) {
+    .different-section{
+        display:none;
+    }
+}
+@media screen and (max-width: 566px) {
+    .shop-it{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    font-size: 1rem;
+    margin-top: -5px;
+}
+
+.shop-it-img{
+    height: 2.8rem;
+    margin-top: -4%;
+    margin-right: 10px;
+}
+.shop-it-text{
+    display: none;
+}
+}
+@media screen and (max-width: 440px) {
+    .search-in-nav{
+        display: none;
+    }    
+}

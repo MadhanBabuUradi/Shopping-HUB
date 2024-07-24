@@ -1,0 +1,123 @@
+.payment-detail-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .subtotal-section,
+  .shipping-section,
+  .coupon-code-section,
+  .total-section {
+    margin-bottom: 10px;
+  }
+  
+  .subtotal-text,
+  .shipping-text,
+  .coupon-code-text,
+  .total-text,
+  .shipping-country-text,
+  .shipping-state-text,
+  .shipping-city-text,
+  .shipping-postal-text {
+    font-weight: bold;
+  }
+  
+  .subtotal-price,
+  .total-price {
+    color: #22a7f0;
+    font-size: 1.2rem;
+  }
+  
+  .shipping-country-dropdown {
+    width: 100%;
+  }
+  
+  .shipping-country-text,
+  .shipping-state-text,
+  .shipping-city-text,
+  .shipping-postal-text {
+    margin-top: 5px;
+  }
+  
+  .shipping-state-input,
+  .shipping-city-input,
+  .shipping-postal-input,
+  .coupon-code-section input{
+    margin-top: 5px;
+  }
+  
+  .payment-detail-form input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-detail-form button {
+    margin-top: 1rem;
+    padding: 8px 15px;
+    background-color: #22a7f0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-detail-form button:hover {
+    background-color: #1a75bb;
+  }
+  
+  .payment-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .payment-detail-form {
+      padding: 10px;
+      max-width: 90%;
+      margin-top: 1rem;
+    }
+  
+    .subtotal-section,
+    .shipping-section,
+    .coupon-code-section,
+    .total-section {
+      margin-bottom: 10px;
+    }
+  
+    .subtotal-price,
+    .total-price {
+      font-size: 1rem;
+    }
+  
+    .shipping-country-dropdown {
+      width: 100%;
+    }
+  
+    .shipping-country-text,
+    .shipping-state-text,
+    .shipping-city-text,
+    .shipping-postal-text {
+      margin-top: 5px;
+      font-size: 0.9rem;
+    }
+  
+    .payment-detail-form input[type="text"],
+    input[type="number"] {
+      font-size: 0.9rem;
+      max-width: 80%;
+    }
+  
+    .payment-detail-form button {
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+  }

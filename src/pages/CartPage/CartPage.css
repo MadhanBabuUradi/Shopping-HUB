@@ -1,0 +1,16 @@
+.cartpage-section{
+    display:grid;
+    grid-template-columns: 1fr 0.9fr;
+}
+@media screen and (max-width: 940px){
+    .cartpage-section{
+        display:flex;
+        flex-direction:column;
+    }
+    .cart-card-container{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,32 @@
+.search-bar-nav{
+    height: 20px;
+    border-radius: 15px;
+    border: solid rgb(45, 128, 134) 0.2px;
+    background-color: rgb(229, 234, 236);
+}
+.search-bar-main{
+    height: 30px;
+    width:80lvw;
+    border-radius: 15px;
+    border: solid rgb(45, 128, 134) 0.5px;
+    background-color: rgb(229, 234, 236);
+}
+.input-field{
+    position: relative;
+}
+
+input{
+    text-align: center;
+}
+
+.but-main{
+    position:absolute;
+    top:20%;
+    right: 11%;
+    background-color: transparent;
+    border: 0pc;
+    
+}
+.but-nav{
+    display: none;
+}
